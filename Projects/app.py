@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load saved model with full path
-model_path = r'C:\data science\demo_1\Projects\titanic_model.pkl'
+model_path = "titanic_model.pkl"
 with open(model_path, 'rb') as f:
     model = pickle.load(f)
 

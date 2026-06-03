@@ -8,7 +8,7 @@ with open(model_path, 'rb') as f:
     model = pickle.load(f)
 
 # Verify model loaded correctly
-st.write(f"Model type: {type(model)}")
+#st.write(f"Model type: {type(model)}")
 
 # App title
 st.title('🚢 Titanic Survival Predictor')
